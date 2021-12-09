@@ -1,0 +1,195 @@
+.app {
+  text-align: center;
+}
+
+.navbar {
+  position: sticky !important;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #0459b4;
+  z-index: 9999;
+}
+
+.nav-logo {
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+}
+
+.home {
+  font-size: 200%;
+  align-self: center;
+  padding: 19px;
+  background-color: #52a5ff;
+  color: white;
+}
+
+.nav-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 70px);
+  color: white;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+}
+
+.to-top {
+  position: absolute;
+  top: 150px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.app-row {
+  display: flex;
+  width: 100%;
+}
+
+.app-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.app-col-left {
+  width: 35%;
+  float: left;
+}
+
+.app-col-right {
+  width: 65%;
+  float: right;
+}
+
+.card-wrapper {
+  width: 400px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 7px;
+  background-color: #eeeeee;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-wrapper:hover {
+  background-color: #0459b4;
+  color: white;
+}
+
+.card-wrapper:hover {
+  opacity: 0.6;
+}
+
+.card-sidebar, .card-content {
+  height: 100%;
+  margin-top: 10px;
+}
+
+.card-sidebar {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin-left: 0px;
+}
+
+.card-sidebar img {
+  width: 75px;
+  height: 75px;
+}
+
+.card-content {
+  width: 80%;
+  margin-left: 15px;
+}
+
+.card-name-display {
+  font-size: 0.8rem;
+}
+
+.card-name-display  strong {
+  font-size: 1.3rem;
+}
+
+.card-tag {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; 
+  padding: 5px;
+}
+
+.tag-bullet {
+  background-color: #ef5d56;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.bg-primary {
+  background-color: #004084;
+
+}
+
+.bg-warning {
+  background-color: yellow;
+}
+
+.bg-error {
+  background-color: #ef5d56;
+}
+
+.button {
+  background-color: #52a5ff;
+  border: none;
+  margin-left: 20px;
+  height: 50px;
+  padding: 10px;
+  font-size: 1.3em;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: translate(2px, 2px);
+}
+
+.patient-id {
+  position: fixed;
+  top: 12px;
+  right: 0;
+  display: block;
+  z-index: 10000;
+  width: 200px;
+  color: white;
+  font-size: 12px;
+}
+
+h3 {
+  color: #0459b4;
+}
+
+hr {
+  border: none;
+  width: 90%;
+  border-top: 2px solid #52a5ff;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+}

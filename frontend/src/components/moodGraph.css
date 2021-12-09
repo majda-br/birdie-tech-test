@@ -1,0 +1,20 @@
+.graph {
+    padding: 30px;
+}
+
+.switch-button {
+    background-color: #52a5ff;
+    border: none;
+    height: 34px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+  
+  .switch-button:hover {
+    transform: translate(2px, 2px);
+    background-color: #0459b4;
+  }

@@ -1,0 +1,70 @@
+enum EVENT_TYPES {
+    "fluid_intake_observation" = "Fluid intake observation",
+    "task_completed" = "Task completed",
+    "physical_health_observation" = "Physical health observation",
+    "visit_completed" = "Visit completed",
+    "check_out" = "Check out",
+    "mood_observation" = "Mood observation",
+    "regular_medication_taken" = "Regular medication taken",
+    "alert_raised" = "Alert raised",
+    "no_medication_observation_received" = "No medication observation received",
+    "incontinence_pad_observation" = "Incontinence pad observation",
+    "check_in" = "Check in",
+    "general_observation" = "General observation",
+    "regular_medication_not_taken" = "Regular medication not taken",
+    "food_intake_observation" = "Food intake observation",
+    "task_completion_reverted" = "Task completion reverted",
+    "mental_health_observation" = "Mental health observation",
+    "medication_schedule_updated" = "Medication schedule updated",
+    "visit_cancelled" = "Visit cancelled",
+    "regular_medication_maybe_taken" = "Regular medication maybe taken",
+    "medication_schedule_created" = "Medication schedule created",
+    "alert_qualified" = "Alert qualified",
+    "task_schedule_created" = "Task schedule created",
+    "concern_raised" = "Concern raised",
+    "regular_medication_partially_taken" = "Regular medication partially taken",
+    "catheter_observation" = "Catheter observation",
+    "toilet_visit_recorded" = "Toilet visit recorded"
+}
+
+enum PAYLOAD_TYPES {
+    "id" = "Event ID",
+    "visit_id" = "Visit ID",
+    "timestamp" = "Time of the event",
+    "event_type" = "Event type",
+    "caregiver_id" = "Caregiver ID",
+    "care_recipient_id" = "Care recipient ID",
+    "task_instance_id" = "Task instance ID",
+    "task_schedule_id" = "Task schedule ID",
+    "task_definition_id" = "Task definition ID",
+    "task_definition_description" = "Task definition description",
+    "task_schedule_note" = "Task schedule note",
+    "pad_condition" = "Pad condition",
+    "note" = "Note",
+    "medication_type" = "Medication type",
+    "fluid" = "Fluid",
+    "meal" = "Meal",
+    "mood" = "Mood",
+    "medication_failure_reason" = "Medication failure reason",
+    "severity" = "Severity",
+    "alert_id" = "Alert ID",
+    "observation_event_id" = "Observation event ID",
+    "type" = "Type",
+    "rrule" = "Rrule",
+    "dose_size" = "Dose size",
+    "medical_product_id" = "Medical product ID",
+    "medication_schedule_id" = "Medication schedule ID",
+    "user_id" = "User ID",
+    "alert_severity" = "Alert severity",
+    "expected_dose_timestamp" = "Expected dose timestamp",
+    "visit_type" = "Visit type",
+    "media" = "Media"
+}
+
+enum PATIENT_MOOD {
+    "happy" = 100,
+    "okay" = 50,
+    "sad" = 0
+}
+
+export { EVENT_TYPES, PAYLOAD_TYPES, PATIENT_MOOD };
